@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Target va Sun'iy Intellekt orqali 500$ - 1000$ Daromad Qilish | Xurshida Supporova</title>
+  <title>Target va Sun'iy Intellekt orqali 500$ - 1000$ Daromad Qilish | Xurshida Sapparova</title>
   
   <!-- SEO & Social Meta Tags -->
-  <meta name="description" content="Target va Sun'iy Intellekt yordamida 500$ - 1000$ daromad qilish sirlari. Xurshida Supporova bilan bepul masterklass.">
+  <meta name="description" content="Target va Sun'iy Intellekt yordamida 500$ - 1000$ daromad qilish sirlari. Xurshida Sapparova bilan bepul masterklass.">
   <meta property="og:title" content="Target va Sun'iy Intellekt orqali 500$ - 1000$ Daromad Qilish">
-  <meta property="og:description" content="25-Sentabr, soat 17:00 da bepul jonli masterklass!">
+  <meta property="og:description" content="25-Sentabr, soat 17:00 da bepul masterklass!">
   <meta property="og:image" content="assets/xurshida.png">
   <meta property="og:type" content="website">
 
@@ -149,49 +149,11 @@
       gap: 24px;
     }
 
-    /* Live Badge */
-    .badge-container {
-      display: flex;
-      justify-content: center;
-      width: 100%;
-    }
-
-    .live-pill {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      padding: 8px 20px;
-      background: rgba(255, 59, 48, 0.15);
-      border: 1px solid rgba(255, 59, 48, 0.4);
-      border-radius: 50px;
-      font-size: 0.88rem;
-      font-weight: 700;
-      color: #ff5252;
-      letter-spacing: 0.3px;
-      text-transform: uppercase;
-      backdrop-filter: blur(10px);
-      box-shadow: 0 0 20px rgba(255, 59, 48, 0.2);
-    }
-
-    .pulsing-dot {
-      width: 9px;
-      height: 9px;
-      background-color: #ff3b30;
-      border-radius: 50%;
-      display: inline-block;
-      animation: pulseDot 1.6s infinite;
-    }
-
-    @keyframes pulseDot {
-      0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 59, 48, 0.8); }
-      70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(255, 59, 48, 0); }
-      100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(255, 59, 48, 0); }
-    }
-
     /* Header */
     .header-section {
       text-align: center;
       width: 100%;
+      margin-top: 10px;
     }
 
     .main-title {
@@ -284,67 +246,6 @@
       color: #ffffff;
     }
 
-    /* Countdown */
-    .countdown-wrapper {
-      width: 100%;
-      background: linear-gradient(180deg, rgba(255, 107, 0, 0.08) 0%, rgba(18, 24, 38, 0.7) 100%);
-      border: 1px solid rgba(255, 107, 0, 0.3);
-      border-radius: var(--radius-md);
-      padding: 16px 20px;
-      text-align: center;
-      backdrop-filter: blur(16px);
-    }
-
-    .countdown-header {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.8px;
-      font-weight: 600;
-      margin-bottom: 10px;
-    }
-
-    .countdown-grid {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .timer-box {
-      background: rgba(0, 0, 0, 0.5);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: var(--radius-sm);
-      padding: 8px 12px;
-      min-width: 60px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .timer-num {
-      font-family: var(--font-heading);
-      font-size: 1.55rem;
-      font-weight: 900;
-      color: #ff9933;
-      line-height: 1.1;
-    }
-
-    .timer-unit {
-      font-size: 0.7rem;
-      color: var(--text-dim);
-      text-transform: uppercase;
-      font-weight: 600;
-      margin-top: 2px;
-    }
-
-    .timer-separator {
-      font-size: 1.4rem;
-      font-weight: 800;
-      color: rgba(255, 107, 0, 0.5);
-      margin-bottom: 12px;
-    }
-
     /* Speaker Spotlight Card */
     .speaker-spotlight-card {
       width: 100%;
@@ -383,155 +284,36 @@
       display: block;
     }
 
-    .speaker-tag-badge {
-      position: absolute;
-      bottom: 10px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: rgba(10, 15, 26, 0.9);
-      border: 1px solid rgba(255, 107, 0, 0.5);
-      padding: 5px 12px;
-      border-radius: 50px;
-      font-size: 0.75rem;
-      font-weight: 700;
-      color: #ff9933;
-      white-space: nowrap;
-    }
-
     .speaker-details {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 14px;
+      gap: 10px;
       width: 100%;
     }
 
-    .speaker-badge {
-      display: inline-flex;
+    .speaker-meta {
+      display: flex;
+      flex-direction: column;
       align-items: center;
-      gap: 6px;
-      background: rgba(0, 210, 255, 0.12);
-      border: 1px solid rgba(0, 210, 255, 0.3);
-      color: var(--accent-cyan);
-      padding: 4px 12px;
-      border-radius: 50px;
-      font-size: 0.78rem;
-      font-weight: 700;
-      text-transform: uppercase;
+      gap: 8px;
     }
 
     .speaker-name {
       font-family: var(--font-heading);
-      font-size: clamp(1.6rem, 4vw, 2.1rem);
+      font-size: clamp(1.7rem, 4.5vw, 2.25rem);
       font-weight: 800;
       color: #ffffff;
-      margin-top: 4px;
     }
 
     .speaker-role {
-      font-size: 1.02rem;
+      font-size: 1.05rem;
       color: #ff9933;
       font-weight: 600;
       background: rgba(255, 107, 0, 0.12);
-      padding: 6px 16px;
+      padding: 8px 20px;
       border-radius: 50px;
       border: 1px solid rgba(255, 107, 0, 0.25);
-      margin-top: 4px;
-    }
-
-    .speaker-perks {
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-      width: 100%;
-      text-align: left;
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.07);
-      padding: 16px;
-      border-radius: var(--radius-md);
-      margin-top: 6px;
-    }
-
-    .perk-item {
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-      font-size: 0.92rem;
-      color: #cbd5e1;
-    }
-
-    .perk-item i {
-      color: #10b981;
-      font-size: 1.05rem;
-      margin-top: 3px;
-      flex-shrink: 0;
-    }
-
-    /* Benefits */
-    .benefits-card {
-      width: 100%;
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: var(--radius-xl);
-      padding: 22px;
-    }
-
-    .benefits-title {
-      font-family: var(--font-heading);
-      font-size: 1.15rem;
-      font-weight: 700;
-      color: #ffffff;
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-
-    .benefits-title i {
-      color: var(--primary-orange);
-    }
-
-    .benefits-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
-
-    .benefit-box {
-      background: rgba(255, 255, 255, 0.03);
-      border: 1px solid rgba(255, 255, 255, 0.06);
-      border-radius: var(--radius-md);
-      padding: 14px;
-      display: flex;
-      gap: 10px;
-      align-items: flex-start;
-    }
-
-    .b-icon {
-      width: 32px;
-      height: 32px;
-      background: rgba(255, 107, 0, 0.15);
-      border: 1px solid rgba(255, 107, 0, 0.3);
-      border-radius: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--primary-orange-light);
-      font-size: 0.95rem;
-      flex-shrink: 0;
-    }
-
-    .b-content h4 {
-      font-size: 0.92rem;
-      font-weight: 700;
-      color: #f8fafc;
-      margin-bottom: 2px;
-    }
-
-    .b-content p {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-      line-height: 1.35;
     }
 
     /* CTA Button */
@@ -541,7 +323,7 @@
       flex-direction: column;
       align-items: center;
       gap: 12px;
-      margin-top: 6px;
+      margin-top: 8px;
     }
 
     .cta-btn {
@@ -613,7 +395,6 @@
     @media (max-width: 600px) {
       .main-wrapper { padding: 20px 12px 35px; }
       .datetime-grid { grid-template-columns: 1fr; }
-      .benefits-grid { grid-template-columns: 1fr; }
       .cta-btn { font-size: 1.15rem; padding: 16px 20px; }
     }
   </style>
@@ -630,14 +411,6 @@
   <main class="main-wrapper">
     <div class="container">
       
-      <!-- Top Live Badge -->
-      <div class="badge-container">
-        <span class="live-pill">
-          <span class="pulsing-dot"></span>
-          <span>🔴 Jonli Efir • Bepul Masterklass</span>
-        </span>
-      </div>
-
       <!-- Hero Header Section -->
       <header class="header-section">
         <h1 class="main-title">
@@ -666,36 +439,8 @@
             <i class="fa-regular fa-clock"></i>
           </div>
           <div class="dt-info">
-            <span class="dt-label">Boshlanish vaqti</span>
+            <span class="dt-label">Soat</span>
             <span class="dt-value">17:00</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Countdown Timer -->
-      <div class="countdown-wrapper">
-        <div class="countdown-header">
-          <i class="fa-solid fa-hourglass-half" style="color: #ff6b00;"></i> Masterklass boshlanishiga qoldi:
-        </div>
-        <div class="countdown-grid">
-          <div class="timer-box">
-            <span class="timer-num" id="cdDays">00</span>
-            <span class="timer-unit">Kun</span>
-          </div>
-          <div class="timer-separator">:</div>
-          <div class="timer-box">
-            <span class="timer-num" id="cdHours">00</span>
-            <span class="timer-unit">Soat</span>
-          </div>
-          <div class="timer-separator">:</div>
-          <div class="timer-box">
-            <span class="timer-num" id="cdMinutes">00</span>
-            <span class="timer-unit">Daqiqa</span>
-          </div>
-          <div class="timer-separator">:</div>
-          <div class="timer-box">
-            <span class="timer-num" id="cdSeconds">00</span>
-            <span class="timer-unit">Soniya</span>
           </div>
         </div>
       </div>
@@ -706,74 +451,17 @@
           
           <!-- Speaker Image Area -->
           <div class="image-frame">
-            <img src="assets/xurshida.png" alt="Xurshida Supporova" class="speaker-photo" onerror="this.src='speaker.png'">
-            <div class="speaker-tag-badge">
-              <i class="fa-solid fa-bullseye"></i> Target & AI Ekspert
-            </div>
+            <img src="assets/xurshida.png" alt="Xurshida Sapparova" class="speaker-photo" onerror="this.src='speaker.png'">
           </div>
 
           <!-- Speaker Details -->
           <div class="speaker-details">
             <div class="speaker-meta">
-              <span class="speaker-badge"><i class="fa-solid fa-certificate"></i> Spiker</span>
-              <h2 class="speaker-name">Xurshida Supporova</h2>
+              <h2 class="speaker-name">Xurshida Sapparova</h2>
               <p class="speaker-role">3 yillik tajribaga ega professional targetolog</p>
             </div>
-
-            <!-- Key Features -->
-            <div class="speaker-perks">
-              <div class="perk-item">
-                <i class="fa-solid fa-circle-check"></i>
-                <span>Meta Ads (Instagram & Facebook) bo'yicha kuchli amaliyot</span>
-              </div>
-              <div class="perk-item">
-                <i class="fa-solid fa-circle-check"></i>
-                <span>Sun'iy Intellekt yordamida tezkor va yuqori konversiyali reklamalar</span>
-              </div>
-              <div class="perk-item">
-                <i class="fa-solid fa-circle-check"></i>
-                <span>Real mijozlar bilan ishlash va barqaror daromadga chiqish sirlari</span>
-              </div>
-            </div>
           </div>
 
-        </div>
-      </div>
-
-      <!-- What You Will Learn -->
-      <div class="benefits-card">
-        <h3 class="benefits-title">
-          <i class="fa-solid fa-fire-flame-curved"></i> Masterklassda nimalarni o'rganasiz?
-        </h3>
-        <div class="benefits-grid">
-          <div class="benefit-box">
-            <div class="b-icon"><i class="fa-solid fa-crosshairs"></i></div>
-            <div class="b-content">
-              <h4>Targeting Asoslari</h4>
-              <p>Byudjetni havoga uchirmasdan, aniq mijozlarni topish</p>
-            </div>
-          </div>
-          <div class="benefit-box">
-            <div class="b-icon"><i class="fa-solid fa-robot"></i></div>
-            <div class="b-content">
-              <h4>AI bilan Ishlash</h4>
-              <p>Neyrotarmoqlar orqali sotuvchi matn va kreativlar yasash</p>
-            </div>
-          </div>
-          <div class="benefit-box">
-            <div class="b-icon"><i class="fa-solid fa-chart-line"></i></div>
-            <div class="b-content">
-              <h4>500$ - 1000$ Daromad</h4>
-              <p>Mijoz topish va birinchi oydayoq natija ko'rsatish</p>
-            </div>
-          </div>
-          <div class="benefit-box">
-            <div class="b-icon"><i class="fa-solid fa-gift"></i></div>
-            <div class="b-content">
-              <h4>Maxsus Bonuslar</h4>
-              <p>Qatnashchilar uchun tayyor shablonlar va qo'llanmalar</p>
-            </div>
-          </div>
         </div>
       </div>
 
@@ -793,7 +481,7 @@
 
       <!-- Footer -->
       <footer class="site-footer">
-        <p>© 2026 Xurshida Supporova. Barcha huquqlar himoyalangan.</p>
+        <p>© 2026 Xurshida Sapparova. Barcha huquqlar himoyalangan.</p>
       </footer>
 
     </div>
@@ -807,36 +495,6 @@
       window.open(TELEGRAM_URL, "_blank");
       window.location.href = TELEGRAM_URL;
     }
-
-    // Live Countdown Timer
-    function initCountdown() {
-      const targetDate = new Date("2026-09-25T17:00:00+05:00").getTime();
-      const daysEl = document.getElementById("cdDays");
-      const hoursEl = document.getElementById("cdHours");
-      const minsEl = document.getElementById("cdMinutes");
-      const secsEl = document.getElementById("cdSeconds");
-
-      function update() {
-        const now = new Date().getTime();
-        const diff = targetDate - now;
-        if (diff <= 0) return;
-
-        const d = Math.floor(diff / (1000 * 60 * 60 * 24));
-        const h = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        const m = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
-        const s = Math.floor((diff % (1000 * 60)) / 1000);
-
-        if (daysEl) daysEl.textContent = String(d).padStart(2, '0');
-        if (hoursEl) hoursEl.textContent = String(h).padStart(2, '0');
-        if (minsEl) minsEl.textContent = String(m).padStart(2, '0');
-        if (secsEl) secsEl.textContent = String(s).padStart(2, '0');
-      }
-
-      update();
-      setInterval(update, 1000);
-    }
-
-    document.addEventListener("DOMContentLoaded", initCountdown);
   </script>
 </body>
 </html>
